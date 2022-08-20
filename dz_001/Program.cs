@@ -74,7 +74,7 @@ void PrintArray(char[] array)
         Console.Write($"{array[i]} ");
         i++;
     }
- 
+
     Console.WriteLine();
 }
 
@@ -101,6 +101,6 @@ char GetChar()
 
 
 // ___Сам текст задачи с применением созданных методов
-char[] arg=CreateArray(8);
+char[] arg = CreateArray(8);
 FillArray(arg);
 PrintArray(arg);
